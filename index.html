@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="유닛픽(UnitPick) - 평·돈·되까지 담은 오프라인 단위 변환기. 식으로도 계산됩니다.">
+  <meta property="og:title" content="유닛픽 · UnitPick">
+  <meta property="og:description" content="10개 분야 115개 단위. 인터넷 권한 없이 기기 안에서만 동작합니다.">
+  <meta property="og:image" content="https://unitpick.hopalt.com/og.png">
+  <meta property="og:url" content="https://unitpick.hopalt.com/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>유닛픽 · UnitPick</title>
+  <link rel="icon" href="assets/app-icon.png">
+  <link rel="apple-touch-icon" href="assets/app-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="translations.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <a class="brand" href="#top"><img src="assets/app-icon.png" alt=""><span>유닛픽 · UnitPick</span></a>
+    <nav>
+      <a href="#features" data-i18n="navFeatures"></a>
+      <a class="privacy-link" href="privacy/" data-i18n="navPrivacy"></a>
+      <div class="language-picker" aria-label="Language">
+        <button type="button" data-lang="ko">KO</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="eyebrow"></p>
+        <h1 data-i18n="title"></h1>
+        <p class="hero-intro" data-i18n="intro"></p>
+        <!-- 스토어 등록이 끝나면 아래 span 을 링크로 바꾸면 된다.
+             <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.hopalt.unitconv"
+                target="_blank" rel="noopener noreferrer" data-i18n="storeBadge"></a> -->
+        <span class="store-badge" data-i18n="storeBadge"></span>
+      </div>
+      <div class="hero-art">
+        <img class="phone-shot" data-shot src="assets/app-home-phone-ko.png" alt="UnitPick">
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <article class="feature-card">
+        <span class="badge">115</span>
+        <h2 data-i18n="f1"></h2>
+        <p data-i18n="f1Body"></p>
+      </article>
+      <article class="feature-card accent">
+        <span class="badge">평 · 돈 · 되</span>
+        <h2 data-i18n="f2"></h2>
+        <p data-i18n="f2Body"></p>
+      </article>
+      <article class="feature-card">
+        <span class="badge">f(x)</span>
+        <h2 data-i18n="f3"></h2>
+        <p data-i18n="f3Body"></p>
+      </article>
+    </section>
+
+    <section class="detail">
+      <img class="phone-shot" data-shot-prefs src="assets/app-prefs-phone-ko.png" alt="">
+      <div>
+        <p class="eyebrow" data-i18n="detailEyebrow"></p>
+        <h2 data-i18n="detailTitle"></h2>
+        <p data-i18n="detailBody"></p>
+        <ul class="detail-list">
+          <li><div><strong data-i18n="d1"></strong><span data-i18n="d1Body"></span></div></li>
+          <li><div><strong data-i18n="d2"></strong><span data-i18n="d2Body"></span></div></li>
+          <li><div><strong data-i18n="d3"></strong><span data-i18n="d3Body"></span></div></li>
+          <li><div><strong data-i18n="d4"></strong><span data-i18n="d4Body"></span></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="privacy-card">
+      <div>
+        <p class="eyebrow" data-i18n="privacyEyebrow"></p>
+        <h2 data-i18n="privacyTitle"></h2>
+        <p data-i18n="privacyBody"></p>
+      </div>
+      <a class="primary-button privacy-link" href="privacy/" data-i18n="privacyButton"></a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><img src="assets/app-icon.png" alt=""><span>유닛픽 · UnitPick</span></div>
+    <div class="footer-links">
+      <a class="privacy-link" href="privacy/" data-i18n="navPrivacy"></a>
+      <a href="mailto:hopalt@gmail.com"><span data-i18n="contact"></span>: hopalt@gmail.com</a>
+      <a href="https://www.hopalt.com/">hopalt.com</a>
+    </div>
+    <p>© 2026 hopalt · com.hopalt.unitconv</p>
+  </footer>
+</body>
+</html>
