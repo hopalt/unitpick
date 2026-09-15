@@ -9,7 +9,7 @@ window.UNITPICK_TRANSLATIONS = {
     intro:
       "길이·넓이·무게부터 평·돈·되 같은 한국 전통 단위까지 10개 분야 115개 단위를 담았습니다. " +
       "값이 딱 떨어지지 않아도 (3*4)+0.5 처럼 식을 그대로 넣으면 계산해서 바꿔 줍니다.",
-    storeBadge: "Google Play 준비 중",
+    storeBadge: "Google Play에서 받기",
 
     f1: "10개 분야 115개 단위",
     f1Body:
@@ -117,7 +117,7 @@ window.UNITPICK_TRANSLATIONS = {
       "115 units across 10 categories — length, area, mass and more, including Korean " +
       "traditional units. And when you do not have the number yet, type an expression " +
       "like (3*4)+0.5 and it converts the result.",
-    storeBadge: "Coming soon to Google Play",
+    storeBadge: "Get it on Google Play",
 
     f1: "115 units, 10 categories",
     f1Body:

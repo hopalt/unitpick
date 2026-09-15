@@ -31,9 +31,9 @@ CNAME               unitpick.hopalt.com
 
 ## 스토어 링크
 
-앱이 아직 플레이스토어에 없어서 히어로 버튼이 "Google Play 준비 중" 상태다.
-등록이 끝나면 `index.html` 의 주석 처리된 `<a class="store-badge">` 를 살리고
-그 아래 `<span>` 을 지우면 된다.
+히어로 버튼이 플레이스토어 등록 페이지(`com.hopalt.unitconv`)로 연결된다.
+`index.html` 의 `<a class="store-badge">` 가 그것이고, 문구는 `translations.js`
+의 `storeBadge` 키다.
 
 ## 배포
 
