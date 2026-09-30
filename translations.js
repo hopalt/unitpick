@@ -8,7 +8,8 @@ window.UNITPICK_TRANSLATIONS = {
     title: "단위, 고민 없이\n바로 바꾸기",
     intro:
       "길이·넓이·무게부터 평·돈·되 같은 한국 전통 단위까지 10개 분야 115개 단위를 담았습니다. " +
-      "값이 딱 떨어지지 않아도 (3*4)+0.5 처럼 식을 그대로 넣으면 계산해서 바꿔 줍니다.",
+      "값이 딱 떨어지지 않아도 (3*4)+0.5 처럼 식을 그대로 넣으면 계산해서 바꿔 줍니다. " +
+      "생년월일이나 입사일을 넣으면 만 나이·한국 나이, 근무 일수·개월 수도 바로 셉니다.",
     storeBadge: "Google Play에서 받기",
 
     f1: "10개 분야 115개 단위",
@@ -23,6 +24,12 @@ window.UNITPICK_TRANSLATIONS = {
     f3Body:
       "치수를 미리 계산해 두지 않아도 됩니다. 키패드의 f(x) 를 켜고 " +
       "(3*4)+0.5 를 넣으면 12.5 로 계산한 뒤 바로 단위를 바꿔 줍니다.",
+    f4Badge: "만 나이",
+    f4: "나이·기간도 바로",
+    f4Body:
+      "생년월일을 넣으면 만 나이·한국 나이·연 나이를, 입사일과 퇴사일을 넣으면 " +
+      "근무 일수·평일 수·개월 수·년 수를 셉니다. 종료일을 비워 두면 오늘까지로 계산하고, " +
+      "말일 입사나 2월 29일생도 민법 기준 그대로 따집니다.",
 
     detailEyebrow: "손에 익는 화면",
     detailTitle: "자주 쓰는 것만 앞에 둡니다",
@@ -37,6 +44,8 @@ window.UNITPICK_TRANSLATIONS = {
     d3Body: "한국어 기기는 평·cm↔인치처럼 한국에서 쓰는 조합으로 시작합니다.",
     d4: "눈이 편한 화면",
     d4Body: "라이트 · 다크 · 시스템 테마와 색약 친화 팔레트를 제공합니다.",
+    d5: "데이터는 1024 기준",
+    d5Body: "1 GB = 1,024 MB 로 셉니다. 국제표준(1,000)이 필요하면 설정에서 바꿀 수 있습니다.",
 
     privacyEyebrow: "PRIVACY",
     privacyTitle: "인터넷 권한이 아예 없습니다",
@@ -49,7 +58,7 @@ window.UNITPICK_TRANSLATIONS = {
     back: "홈으로",
 
     policyTitle: "개인정보 처리방침",
-    updated: "시행일 2026년 9월 14일",
+    updated: "시행일 2026년 9월 30일",
     policyIntro:
       "유닛픽(UnitPick)은 단위를 바꾸는 일만 하는 앱입니다. 이용자의 개인정보를 수집하지 않고, " +
       "어떤 정보도 외부로 보내지 않습니다. 아래는 그 내용을 항목별로 적은 것입니다.",
@@ -63,7 +72,9 @@ window.UNITPICK_TRANSLATIONS = {
         "2. 기기에 저장되는 정보",
         "앱 설정만 이용자의 기기 안에 저장됩니다. 테마와 색상 모드, 마지막으로 본 분야, " +
           "분야별로 마지막에 쓴 입력·결과 단위, 자주 쓰는 항목과 순서, 숫자 표시 방식, " +
-          "키패드 진동 여부, 계산 모드 켜짐 여부, 첫 실행 안내를 마쳤는지 여부입니다.\n" +
+          "키패드 진동 여부, 계산 모드 켜짐 여부, 데이터 단위 기준(1,000/1,024), " +
+          "나이·기간의 ‘오늘까지/종료일’ 선택, 첫 실행 안내를 마쳤는지 여부입니다.\n" +
+          "나이·기간에 입력한 날짜(생년월일·입사일 등)는 저장하지 않으며, 앱을 종료하면 사라집니다.\n" +
           "이 값들은 기기를 벗어나지 않으며, 앱을 삭제하면 함께 지워집니다.",
       ],
       [
@@ -116,7 +127,8 @@ window.UNITPICK_TRANSLATIONS = {
     intro:
       "115 units across 10 categories — length, area, mass and more, including Korean " +
       "traditional units. And when you do not have the number yet, type an expression " +
-      "like (3*4)+0.5 and it converts the result.",
+      "like (3*4)+0.5 and it converts the result. Enter a birth date or a start date " +
+      "and it works out ages and day counts too.",
     storeBadge: "Get it on Google Play",
 
     f1: "115 units, 10 categories",
@@ -131,6 +143,12 @@ window.UNITPICK_TRANSLATIONS = {
     f3Body:
       "No need to work the number out first. Turn on f(x) on the keypad, type " +
       "(3*4)+0.5, and it evaluates to 12.5 before converting.",
+    f4Badge: "Age",
+    f4: "Ages and date spans",
+    f4Body:
+      "Enter a birth date for age (Korean age included), or a start and end date for the " +
+      "days, weekdays, months and years between them. Leave the end date empty to count " +
+      "up to today. Month-end starts and 29 February birthdays are handled correctly.",
 
     detailEyebrow: "BUILT FOR THUMBS",
     detailTitle: "Only what you actually use",
@@ -145,6 +163,8 @@ window.UNITPICK_TRANSLATIONS = {
     d3Body: "Korean devices start on pyeong and cm↔inch; elsewhere it is metric to imperial.",
     d4: "Easy on the eyes",
     d4Body: "Light, dark and system themes, plus a colour-blind friendly palette.",
+    d5: "Data in 1024s",
+    d5Body: "1 GB = 1,024 MB by default. Switch to SI (1,000) in settings when you need it.",
 
     privacyEyebrow: "PRIVACY",
     privacyTitle: "It cannot even reach the internet",
@@ -157,7 +177,7 @@ window.UNITPICK_TRANSLATIONS = {
     back: "Back to home",
 
     policyTitle: "Privacy Policy",
-    updated: "Effective 14 September 2026",
+    updated: "Effective 30 September 2026",
     policyIntro:
       "UnitPick only converts units. It does not collect personal information and does " +
       "not send anything off your device. The sections below spell that out.",
@@ -171,8 +191,11 @@ window.UNITPICK_TRANSLATIONS = {
         "2. What is stored on your device",
         "Only app settings: theme and colour mode, the category you last viewed, the last " +
           "input and result unit per category, your chosen categories, units and their order, " +
-          "number formatting, keypad haptics, whether calculator mode is on, and whether you " +
-          "finished the first-run walkthrough.\n" +
+          "number formatting, keypad haptics, whether calculator mode is on, the data unit " +
+          "base (1,000 or 1,024), the “until today / end date” choice for date spans, and " +
+          "whether you finished the first-run walkthrough.\n" +
+          "Dates you enter for ages and date spans (such as a birth date) are not saved; " +
+          "they are gone when you close the app.\n" +
           "These never leave your device and are removed when you uninstall the app.",
       ],
       [
